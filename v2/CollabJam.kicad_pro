@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|72650000|42325000|95238eca-637b-441b-8fea-5133223c34d6|68fd7aeb-3017-411b-84fe-a7b27c517057",
+        "clearance|72650000|43975000|3d262ca7-bc26-4008-b434-186750adfc54|2fd1762c-c6e0-48f3-b5b9-7ed8f83d959c",
+        "clearance|72750000|50500000|1090634e-7773-45e3-92ca-9988434e157a|3f9190fa-830f-450a-9f86-4f59c0db9cea",
+        "clearance|72750000|52350000|901144aa-bc87-4305-b839-352066ad5e62|cbba8a0c-b17c-4963-8dcd-8cb21313ffa3",
+        "clearance|72750000|58775000|b9f2b50f-83af-4b82-8b91-42b597fdde53|243b9a89-5e43-47ca-aed9-8dc4f0b625f5",
+        "clearance|72750000|60625000|52e1498b-323c-4c0a-a3cf-01ac730f6506|ce120b5c-7330-49cc-acfa-e3873a0318a8",
+        "clearance|72750000|67050000|adf73287-d5fb-4982-8cd5-11bd2c9dccac|163b154a-76b3-4a6d-81dd-698d2f88741a",
+        "clearance|72750000|68900000|4e7f6fef-8f44-4808-ad0b-53261cf58803|87884db7-6c07-41e8-82c9-5bd41b7a9284",
+        "clearance|74400000|52350000|1d19d8cd-eb40-479c-a416-8f86a90a34b9|784d2ebc-a00f-4922-8ce1-26a1be180c3b",
+        "clearance|74400000|60625000|73564162-3c34-4314-8c82-1fc8fa2a170a|653a8ea2-f907-4ba1-b33c-7b1ffac089c0",
+        "clearance|74400000|68900000|da7451f7-33c9-41e1-854d-bb411b12f944|b5735d02-e2dd-47e1-8511-80ecacb56c33",
+        "clearance|74500000|43975000|344f5466-98e6-4ca9-9301-c624b59ee0b5|8c602c0b-a8b8-42ca-839c-ba341dde3b3b"
+      ],
       "meta": {
         "version": 2
       },
@@ -173,7 +186,7 @@
       ],
       "track_widths": [
         0.0,
-        0.2
+        0.3
       ],
       "via_dimensions": [
         {
@@ -525,6 +538,14 @@
     [
       "9bdfecce-164d-4fcf-8d25-7676433448a3",
       ""
+    ],
+    [
+      "ba6fbca5-9a2a-4011-876b-0c00085f1fcb",
+      "motor_drivers-QFN"
+    ],
+    [
+      "c6ff3e0f-6a98-4e36-9e24-488282375718",
+      "motor_drivers-WLCSP"
     ]
   ],
   "text_variables": {}
