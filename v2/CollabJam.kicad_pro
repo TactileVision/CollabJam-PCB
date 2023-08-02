@@ -56,6 +56,18 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|145027000|79115500|163b154a-76b3-4a6d-81dd-698d2f88741a|adf73287-d5fb-4982-8cd5-11bd2c9dccac",
+        "clearance|145027000|80765500|87884db7-6c07-41e8-82c9-5bd41b7a9284|4e7f6fef-8f44-4808-ad0b-53261cf58803",
+        "clearance|145102000|100951000|68fd7aeb-3017-411b-84fe-a7b27c517057|95238eca-637b-441b-8fea-5133223c34d6",
+        "clearance|145102000|102801000|2fd1762c-c6e0-48f3-b5b9-7ed8f83d959c|3d262ca7-bc26-4008-b434-186750adfc54",
+        "clearance|145102000|93555832|1090634e-7773-45e3-92ca-9988434e157a|3f9190fa-830f-450a-9f86-4f59c0db9cea",
+        "clearance|145102000|95405832|901144aa-bc87-4305-b839-352066ad5e62|cbba8a0c-b17c-4963-8dcd-8cb21313ffa3",
+        "clearance|145127000|86197000|b9f2b50f-83af-4b82-8b91-42b597fdde53|243b9a89-5e43-47ca-aed9-8dc4f0b625f5",
+        "clearance|145127000|88047000|52e1498b-323c-4c0a-a3cf-01ac730f6506|ce120b5c-7330-49cc-acfa-e3873a0318a8",
+        "clearance|146752000|102801000|8c602c0b-a8b8-42ca-839c-ba341dde3b3b|344f5466-98e6-4ca9-9301-c624b59ee0b5",
+        "clearance|146752000|95405832|1d19d8cd-eb40-479c-a416-8f86a90a34b9|784d2ebc-a00f-4922-8ce1-26a1be180c3b",
+        "clearance|146777000|88047000|73564162-3c34-4314-8c82-1fc8fa2a170a|653a8ea2-f907-4ba1-b33c-7b1ffac089c0",
+        "clearance|146877000|80765500|b5735d02-e2dd-47e1-8511-80ecacb56c33|da7451f7-33c9-41e1-854d-bb411b12f944",
         "clearance|72650000|42325000|95238eca-637b-441b-8fea-5133223c34d6|68fd7aeb-3017-411b-84fe-a7b27c517057",
         "clearance|72650000|43975000|3d262ca7-bc26-4008-b434-186750adfc54|2fd1762c-c6e0-48f3-b5b9-7ed8f83d959c",
         "clearance|72750000|50500000|1090634e-7773-45e3-92ca-9988434e157a|3f9190fa-830f-450a-9f86-4f59c0db9cea",
@@ -124,7 +136,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.25,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -136,7 +148,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.3,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.19999999999999998,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -186,6 +198,8 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
+        0.2,
         0.3
       ],
       "via_dimensions": [
@@ -450,10 +464,44 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(132, 0, 0)",
-        "track_width": 0.9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VDDIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -466,16 +514,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Power",
+        "netclass": "PWR",
         "pattern": "GND"
       },
       {
-        "netclass": "Power",
-        "pattern": "PWR*"
+        "netclass": "PWR",
+        "pattern": "PWR"
       },
       {
-        "netclass": "Power",
-        "pattern": "VC*"
+        "netclass": "signal",
+        "pattern": "ESP_GPIO*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "ESP_VDDIO_3V3"
       }
     ]
   },
