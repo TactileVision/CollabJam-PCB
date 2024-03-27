@@ -9083,7 +9083,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8283d280-5751-442f-869a-bde8049c7aa4")
@@ -14604,7 +14604,7 @@
 		(path "/ba6fbca5-9a2a-4011-876b-0c00085f1fcb/fd8a6f0d-78eb-45bf-a4d2-77619a2e2f61")
 		(sheetname "motor drivers")
 		(sheetfile "motor_drivers-QFN.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -14719,7 +14719,7 @@
 		(path "/e9c2f3e2-d4c0-40ac-917d-f5e903ca1042/35700983-8fcd-4321-b87b-7fa27b44bbbf")
 		(sheetname "analog sensors")
 		(sheetfile "analog_sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -14834,7 +14834,7 @@
 		(path "/ba6fbca5-9a2a-4011-876b-0c00085f1fcb/062f18f1-fcb5-4fb6-8613-83bf2a85cfcd")
 		(sheetname "motor drivers")
 		(sheetfile "motor_drivers-QFN.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -14949,7 +14949,7 @@
 		(path "/e9c2f3e2-d4c0-40ac-917d-f5e903ca1042/df087edf-bce4-4767-b276-10003ef4c379")
 		(sheetname "analog sensors")
 		(sheetfile "analog_sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -15064,7 +15064,7 @@
 		(path "/e9c2f3e2-d4c0-40ac-917d-f5e903ca1042/a8c15942-42dc-43a0-ab2f-80d75984ab3a")
 		(sheetname "analog sensors")
 		(sheetfile "analog_sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -15179,7 +15179,7 @@
 		(path "/e9c2f3e2-d4c0-40ac-917d-f5e903ca1042/6aa3f321-4508-4922-bae3-43518f9fe3a9")
 		(sheetname "analog sensors")
 		(sheetfile "analog_sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -15294,7 +15294,7 @@
 		(path "/ba6fbca5-9a2a-4011-876b-0c00085f1fcb/0421ef62-cd39-4161-a8e1-a60fba67942c")
 		(sheetname "motor drivers")
 		(sheetfile "motor_drivers-QFN.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -15409,7 +15409,7 @@
 		(path "/e9c2f3e2-d4c0-40ac-917d-f5e903ca1042/2efe63e0-85cc-4c7e-a137-3eb0a55ff6d8")
 		(sheetname "analog sensors")
 		(sheetfile "analog_sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -15524,7 +15524,7 @@
 		(path "/ba6fbca5-9a2a-4011-876b-0c00085f1fcb/3122c11e-555a-47d8-bdea-3b3869e2a707")
 		(sheetname "motor drivers")
 		(sheetfile "motor_drivers-QFN.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -15639,7 +15639,7 @@
 		(path "/e9c2f3e2-d4c0-40ac-917d-f5e903ca1042/80542da2-265a-4eff-84f8-a940536f3c0c")
 		(sheetname "analog sensors")
 		(sheetfile "analog_sensors.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -15754,7 +15754,7 @@
 		(path "/ba6fbca5-9a2a-4011-876b-0c00085f1fcb/d72d8d9f-deec-4398-94b9-5e718dea16d1")
 		(sheetname "motor drivers")
 		(sheetfile "motor_drivers-QFN.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
@@ -15869,7 +15869,7 @@
 		(path "/ba6fbca5-9a2a-4011-876b-0c00085f1fcb/9f21adac-8181-482d-9a82-53f29002b7fe")
 		(sheetname "motor drivers")
 		(sheetfile "motor_drivers-QFN.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.3 180)
 			(unlocked yes)
