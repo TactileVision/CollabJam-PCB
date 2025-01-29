@@ -2,6 +2,8 @@
 
 This repository contains KiCAD projects for the tactile display Printed Circuit Board (PCB).
 
+![CollabJam_v4_3D_2](https://github.com/user-attachments/assets/ec36295d-adf3-4c08-a298-8f03e1ca4d93)
+
 ## Repositories
 
 Below are links to the individual repositories associated with the project:
